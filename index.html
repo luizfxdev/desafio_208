@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Jornada dos Dados Perdidos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>A Jornada dos Dados Perdidos</h1>
+      <p class="description">
+        🌌 Bem-vindo à incrível saga dos dados perdidos no espaço-tempo! Decodifique as mensagens embaralhadas lendo os
+        caracteres em diagonal.
+      </p>
+
+      <div class="input-section">
+        <div class="input-group">
+          <label for="alpha">Coluna α (separada por vírgulas):</label>
+          <input type="text" id="alpha" placeholder="Ex: a, b, c, d" />
+        </div>
+
+        <div class="input-group">
+          <label for="mu">Coluna μ (separada por vírgulas):</label>
+          <input type="text" id="mu" placeholder="Ex: e, f, g, h" />
+        </div>
+
+        <div class="input-group">
+          <label for="omega">Coluna Ω (separada por vírgulas):</label>
+          <input type="text" id="omega" placeholder="Ex: i, j, k, l" />
+        </div>
+      </div>
+
+      <div class="button-group">
+        <button id="decode-btn">DECIFRAR</button>
+        <button id="reset-btn">RETORNAR</button>
+      </div>
+      <br />
+      <br />
+      <div class="result-section">
+        <h2>Resultado</h2>
+        <div id="result"></div>
+        <div id="calculation"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
